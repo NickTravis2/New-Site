@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Parallax Test</title>
+</head>
+<body>
+    <header>
+
+        <nav>
+            <div class="container" id="homeContainer">
+                <a href="#"><h3 class="logo">Website<span>Dev</span></h3></a>
+                <div class="hamburger-menu">
+                    <div class="bar"></div>
+                </div>
+                <div class="nav-list">
+                    <ul>
+                        <li><a class="active" href="#">Home</a></li>
+                        <li><a href="#aboutContainer">About</a></li>
+                        <li><a href="#">Work</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <h1 class="main-title translate" data-speed="0.3" >Discover.</h1>
+
+        <img src="images/arch.png" class="arch translate" data-speed="-0.25" alt="">
+        <img src="images/bg1.png" class="bg1 translate" data-speed="-0.2" alt="">
+        <img src="images/mountain.png" class="mountain translate" data-speed="0.2" alt="">
+        <img src="images/sky.png" class="sky translate" data-speed="0.2" alt="">
+    </header>
+
+
+    <section>
+
+        <div class="shadow"></div>
+
+        <div class="container" id="aboutContainer">
+            <div class="content opacity">
+                <h3 class="title">About
+                    <div class="border"></div>
+                </h3>
+                <p class="text">
+                    My name is Nick Travis and I am a Full-Stack Web Developer based out of San Diego,
+                    California! Collaborating with talented people to create highly-impacting and user-friendly applications
+                    is something I'm incredibly passionate about. My curiosity drives me to continuously learn and try new things
+                    both inside and out of the development environment.<br><br>
+
+                    The website is designed to showcase my understanding of developing modern UIs as well as applications for the web.
+                    Scroll effects were created with the help of Parallas.js. General website design was done using HTML5, CSS3, and Javascript.
+                    The landing page background was created using Adobe Photoshop and the forms/comment section use PHP on the back-end via the 
+                    the XAMPP Stack. <br><br>
+
+                    Projects added to the site include: 'Photo portfolio' using Flexbox & lightroom.js, 'Log-in system' and 'Comment section'
+                    using PHP, MySQL, AJAX & jQuery. The 'Arcade' section was created in HTML Canvas running on PHP & Javascript.
+                    The site is also fully responsive on most devices. Please mention any issues you discover in the feedback section below.
+                    Thanks for checking it out!
+                </p>
+            </div>
+
+            
+            <div class="content-right">
+                <!-- <div class="imgContainer"> -->
+                <img id="portrait" src="images/pigeon.jpg" alt="Portrait">
+
+                <!-- </div> -->
+                <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Ipsum vitae, possimus veritatis dolorum cupiditate perspiciatis qui
+                     magnam molestias, sint praesentium accusantium asperiores tenetur,
+                      commodi voluptates?
+               </p> -->
+               <h3>Nick Travis</h3>
+               <p>
+                A full stack web developer who is proficient in HTML5, CSS3, 
+                and Javascript ES2018. My passion to learn and hunger for 
+                success helps me to create powerful high-quality web applications 
+                using the latest technologies.
+               </p>
+            </div>
+            
+
+
+
+
+                <!-- <div class="imgContainer">
+                    <img src="images/pigeon.jpg" alt="">
+                </div> -->
+            
+        </div>
+
+        
+
+    </section>
+    
+
+       <section>
+        <h1 style="color: antiquewhite;">hi</h1>
+
+
+        <div class="daddy">
+
+            <br>
+        
+            <div class="title">
+                <h1>Previous Photo Shoots</h1>
+            </div>
+        
+            <hr>
+            <br>
+                <div class="container">
+                    <div class="image-gallery">
+                        <a href="images/img-1.jpg" data-lightbox="portfolio" class="img-1">
+                            <ion-icon name="expand-outline"></ion-icon>
+                        </a>
+                        <a href="images/img-2.jpg" data-lightbox="portfolio" class="img-2">
+                            <ion-icon name="expand"></ion-icon>
+                        </a>
+                        <a href="images/img-3.jpg" data-lightbox="portfolio" class="img-3">
+                            <ion-icon name="expand"></ion-icon>
+                        </a>
+                        <a href="images/img-4.jpg" data-lightbox="portfolio" class="img-4">
+                            <ion-icon name="expand"></ion-icon>
+                        </a>
+                        <a href="images/img-5.jpg" data-lightbox="portfolio" class="img-5">
+                            <ion-icon name="expand"></ion-icon>
+                        </a>
+                        <a href="images/img-6.jpg" data-lightbox="portfolio" class="img-6">
+                            <ion-icon name="expand"></ion-icon>
+                        </a>
+                        <a href="images/img-7.jpg" data-lightbox="portfolio" class="img-7">
+                            <ion-icon name="expand"></ion-icon>
+                        </a>
+                        <a href="images/img-8.jpg" data-lightbox="portfolio" class="img-8">
+                            <ion-icon name="expand"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+            <br>
+            <hr>
+            <br>
+        
+        </div>
+
+       </section>
+
+    
+    
+
+
+    <script src="app.js"></script>
+</body>
+</html>
